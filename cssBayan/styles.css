@@ -42,17 +42,3 @@ h1 h3{
 .hovring:hover .plus_logo{
     opacity: 1;
 }
-
-
-/* .hovring .plus_logo {
-    opacity: 0;
-    padding-left: 100px;
-}
-
-.hovring:hover .plus_logo{
-    display: none;
-}
-
-.hovring:hover .plus_logo{
-    opacity: 1;
-} */

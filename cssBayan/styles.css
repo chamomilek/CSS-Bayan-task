@@ -1,15 +1,9 @@
 body {
-    background-color:hsl(225, 100%, 92%);
-        /* width: 100%; */
-        padding: 10px 15px;
-    
+    background-color:hsl(225, 100%, 95%);
+    padding: 10px 15px; 
 }
 
-h1{
-    font-weight: bold;
-}
-
-h3{
+h1 h3{
     font-weight: bold;
 }
 
@@ -28,20 +22,37 @@ h3{
 }
 
 .logos{
+    padding: 5px;
     display: flex;
-    justify-content: center;
-    /* width: 5%;
-    height: 5%; */
+    justify-content: space-between;
 }
 
 .blocks{
     text-align: center;
 }
 
-.blocks .main_img img{
+.hovring .blocks img{
     display: none;
 }
 
-.blocks:hover .main_img img{
+.hovring .blocks:hover img{
     display: block;
 }
+
+.hovring:hover .plus_logo{
+    opacity: 1;
+}
+
+
+/* .hovring .plus_logo {
+    opacity: 0;
+    padding-left: 100px;
+}
+
+.hovring:hover .plus_logo{
+    display: none;
+}
+
+.hovring:hover .plus_logo{
+    opacity: 1;
+} */
